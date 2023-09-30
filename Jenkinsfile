@@ -12,7 +12,6 @@ pipeline {
         stage ("maven install") {
             steps {
                 sh 'mvn install'
-                sh 'echo install completed'
             }
         }
         stage ("maven package") {
