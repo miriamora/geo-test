@@ -27,7 +27,7 @@ pipeline {
                 nexusUrl: '198.58.119.40:8081', nexusVersion: 'nexus3', 
                 protocol: 'http', 
                 repository: 'MirOra', 
-                version: '0.0.2-SNAPSHOT'
+                version: '0.0.3-SNAPSHOT'
             }
         }
     }
