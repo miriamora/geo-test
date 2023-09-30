@@ -3,18 +3,18 @@ pipeline {
     stages {
         stage ("maven clean") {
             steps{
-                sh "mvn clean"
+                sh 'mvn clean'
             }
         }
         stage ("maven install") {
             steps {
-                sh "mvn install"
-                sh "echo install completed"
+                sh 'mvn install'
+                sh 'echo install completed'
             }
         }
         stage ("maven package") {
             steps {
-                sh "mvn package"
+                sh 'mvn package'
             }
         }
     }
